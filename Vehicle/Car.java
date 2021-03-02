@@ -10,13 +10,11 @@ public class Car extends Vehicle{
 
     @Override
     public int getMaxNumberOfPassengers() {
-        return 7;
+        return TestData.test_max_number_of_passengers_in_the_car;
     }
 
     @Override
     public int getMaxSpeed() {
-        return 480;
+        return TestData.test_max_speed_of_the_car;
     }
-
-
 }
