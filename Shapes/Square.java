@@ -15,15 +15,4 @@ public class Square extends Quadrangle {
     public double getPerimeter() {
         return 4 * m_a;
     }
-
-    @Override
-    public String toString() {
-        return "Square{" +
-                "m_a=" + m_a +
-                ", m_b=" + m_b +
-                ", m_c=" + m_c +
-                ", m_d=" + m_d +
-                ", m_name='" + m_name + '\'' +
-                "} " + super.toString();
-    }
 }
