@@ -17,6 +17,6 @@ public abstract class Quadrangle extends Shape {
 
     @Override
     public double getPerimeter() {
-        return 0;
+         return m_a + m_b + m_c + m_d;
     }
 }
