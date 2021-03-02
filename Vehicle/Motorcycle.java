@@ -11,11 +11,11 @@ public class Motorcycle extends Vehicle{
 
     @Override
     public int getMaxNumberOfPassengers() {
-        return 2;
+        return TestData.test_max_number_of_passengers_on_the_motorcycle;
     }
 
     @Override
     public int getMaxSpeed() {
-        return 350;
+        return TestData.test_max_speed_of_the_motorcycle;
     }
 }
