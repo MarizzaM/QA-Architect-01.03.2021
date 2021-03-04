@@ -1,5 +1,5 @@
 1
-No, it doesn't make sense
+Yes, but it doesn't make sense
 
 2
 Abstract method does not have a body
